@@ -1,6 +1,6 @@
 import Header from "../header/Header";
 import HeaderAfterLogin from "../header/HeaderAfterLogin";
-import Login from "../pages/Login";
+import Login from "../../pages/LoginPage";
 
 function MainLayout() {
   return (

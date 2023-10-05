@@ -1,4 +1,4 @@
-function Login() {
+function LoginPage() {
   return (
     <>
       <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
@@ -76,10 +76,10 @@ function Login() {
           <p className="mt-10 text-center text-sm text-gray-500">
             Not a member?
             <a
-              href="#"
+              href="signup"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
-              Start a 14 day free trial
+              Signup
             </a>
           </p>
         </div>
@@ -88,4 +88,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginPage;
