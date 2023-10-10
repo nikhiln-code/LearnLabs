@@ -1,5 +1,5 @@
-function Page400() {
+function Page404() {
   return <></>;
 }
 
-export default Page400;
+export default Page404;

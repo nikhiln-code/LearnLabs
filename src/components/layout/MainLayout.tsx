@@ -5,7 +5,7 @@ import MyHeader from "../header/Header";
 import Login from "../../pages/LoginPage";
 
 function MainLayout() {
-  const [isLogin, setLogin] = useState(false);
+  const [isLogin, setLogin] = useState(true);
   return (
     <>
       {isLogin ? <HeaderAfterLogin /> : <MyHeader />}

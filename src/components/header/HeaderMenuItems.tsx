@@ -1,11 +1,15 @@
-function HeaderMenuItem(props) {
+interface Props {
+  menuName: string;
+}
+
+function HeaderMenuItem({ menuName }: Props) {
   return (
     <>
       <a
         href="#"
         className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
       >
-        {props.menuName}
+        {menuName}
       </a>
     </>
   );
